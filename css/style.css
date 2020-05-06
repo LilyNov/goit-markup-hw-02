@@ -1,0 +1,40 @@
+body {
+  background-color: #ffffff;
+  color: #757575;
+}
+
+/* цвет основной + телефон в шапке #757575 */
+/* цвет заголовков #212121 */
+/* акцент #2196F */
+/* белый #FFFFFF */
+/* телефон, почта футер rgba(255, 255, 255, 0.6) */
+
+.logo {
+  color: black;
+  text-decoration: none;
+}
+
+.logo-web {
+  color: #2196f3;
+}
+
+.logo-studio {
+  color: black;
+}
+
+.site-nav {
+  color: #212121;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: #757575;
+}
+
+.link:hover {
+  color: #2196f3;
+}
