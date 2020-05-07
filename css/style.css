@@ -1,17 +1,34 @@
 body {
+  font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
   color: #757575;
 }
 
 /* цвет основной + телефон в шапке #757575 */
 /* цвет заголовков #212121 */
-/* акцент #2196F */
+/* акцент #2196F3 */
 /* белый #FFFFFF */
 /* телефон, почта футер rgba(255, 255, 255, 0.6) */
 
+/* Логотип */
 .logo {
-  color: black;
+  letter-spacing: 0.03em;
+}
+
+.logo-head {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1;
   text-decoration: none;
+  letter-spacing: 0.03em;
+}
+
+.logo-foot {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1;
+  letter-spacing: 0.03em;
 }
 
 .logo-web {
@@ -19,10 +36,15 @@ body {
 }
 
 .logo-studio {
-  color: black;
+  color: #000000;
 }
 
+/* Навигация сайта */
 .site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   color: #212121;
 }
 
@@ -35,6 +57,89 @@ body {
   color: #757575;
 }
 
-.link:hover {
+.link:hover,
+.site-nav-st:hover,
+.site-nav-port:hover,
+.site-nav-сont:hover {
   color: #2196f3;
+}
+
+/* Герой */
+.hero {
+  background-color: rgb(198, 198, 199);
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+}
+
+.hero-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 9;
+  text-align: center;
+  letter-spacing: 0.06em;
+  /* display: flex;
+  align-items: center;
+   */
+}
+
+/* Наши преимущества */
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.advantage {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+/* Чем мы занимаемся */
+.we-doing {
+  background: rgba(47, 48, 58, 0.8);
+  border-radius: 0px 0px 4px 4px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 1;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+/* Наша команда */
+.team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  color: #212121;
+  /* text-align: center; */
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  color: #757575;
+  /* text-align: center; */
 }
