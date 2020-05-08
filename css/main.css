@@ -13,7 +13,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: var (--primary-white-color);
+  background-color: var(--primary-white-color);
   color: var(--primery-texy-color);
 }
 
@@ -47,12 +47,30 @@ body {
 }
 
 /* Навигация сайта */
-.site-nav {
+.site-nav .link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-text-color);
+}
+
+.link:hover,
+.studio:hover,
+.portfolio:hover,
+.сontact:hover {
+  color: var(--accent-text-color);
+}
+
+.cont-nav .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.02em;
 }
 
 .list {
@@ -62,13 +80,6 @@ body {
 .link {
   text-decoration: none;
   color: var(--primery-texy-color);
-}
-
-.link:hover,
-.site-nav-st:hover,
-.site-nav-port:hover,
-.site-nav-сont:hover {
-  color: var(--accent-text-color);
 }
 
 /* Герой */
@@ -86,14 +97,15 @@ body {
   letter-spacing: 0.06em;
 }
 
-.hero-link {
+.button.primary {
   text-decoration: none;
-  color: var(--primary-white-color);
   font-weight: 700;
   font-size: 16px;
-  line-height: 1, 9;
+  line-height: 1.9;
   text-align: center;
   letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  background-color: var(--accent-text-color);
   /* display: flex;
   align-items: center;
    */
@@ -101,10 +113,10 @@ body {
 
 /* Наши преимущества */
 
-h2 {
+.section h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 2;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
@@ -113,10 +125,17 @@ h2 {
 .advantage-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1, 1;
+  line-height: 1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
+}
+
+.advantage .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 /* Чем мы занимаемся */
@@ -125,7 +144,7 @@ h2 {
   border-radius: 0px 0px 4px 4px;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1, 1;
+  line-height: 1;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -144,6 +163,7 @@ h2 {
 }
 
 .team-position {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1;
   letter-spacing: 0.03em;
