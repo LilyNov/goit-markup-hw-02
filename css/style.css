@@ -1,14 +1,21 @@
-body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #ffffff;
-  color: #757575;
-}
-
 /* цвет основной + телефон в шапке #757575 */
 /* цвет заголовков #212121 */
 /* акцент #2196F3 */
 /* белый #FFFFFF */
 /* телефон, почта футер rgba(255, 255, 255, 0.6) */
+
+:root {
+  --primery-texy-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var (--primary-white-color);
+  color: var(--primery-texy-color);
+}
 
 /* Логотип */
 .logo {
@@ -45,7 +52,7 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .list {
@@ -54,14 +61,14 @@ body {
 
 .link {
   text-decoration: none;
-  color: #757575;
+  color: var(--primery-texy-color);
 }
 
 .link:hover,
 .site-nav-st:hover,
 .site-nav-port:hover,
 .site-nav-сont:hover {
-  color: #2196f3;
+  color: var(--accent-text-color);
 }
 
 /* Герой */
@@ -69,9 +76,9 @@ body {
   background-color: rgb(198, 198, 199);
 }
 
-h1 {
+.hero-title {
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--primary-white-color);
   text-align: center;
   font-weight: 900;
   font-size: 44px;
@@ -81,7 +88,7 @@ h1 {
 
 .hero-link {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--primary-white-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1, 9;
@@ -100,20 +107,20 @@ h2 {
   line-height: 1, 2;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 
-.advantage {
+.advantage-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1, 1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 /* Чем мы занимаемся */
-.we-doing {
+.doing-text {
   background: rgba(47, 48, 58, 0.8);
   border-radius: 0px 0px 4px 4px;
   font-weight: 700;
@@ -123,16 +130,16 @@ h2 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 
 /* Наша команда */
-.team {
+.team-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-text-color);
   /* text-align: center; */
 }
 
@@ -140,6 +147,6 @@ h2 {
   font-size: 16px;
   line-height: 1;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--primery-texy-color);
   /* text-align: center; */
 }
