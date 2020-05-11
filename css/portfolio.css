@@ -9,7 +9,7 @@ h2 {
 p {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.88;
   letter-spacing: 0.03em;
 }
 
@@ -24,10 +24,10 @@ p {
 } */
 
 .button {
-  font-family: Roboto;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);

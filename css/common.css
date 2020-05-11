@@ -20,7 +20,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1;
+  line-height: 1.19;
   text-decoration: none;
   letter-spacing: 0.03em;
 }
@@ -28,7 +28,7 @@ body {
 .logo-foot {
   font-weight: 700;
   font-size: 22px;
-  line-height: 1;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 }
 
@@ -54,16 +54,20 @@ body {
 }
 
 .link:hover,
+.link:focus,
 .studio:hover,
+.studio:focus,
 .portfolio:hover,
-.сontact:hover {
+.portfolio:focus,
+.сontact:hover,
+.сontact:focus {
   color: var(--accent-text-color);
 }
 
 .cont-nav .link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -74,4 +78,51 @@ body {
 .link {
   text-decoration: none;
   color: var(--primery-texy-color);
+}
+
+/* Футер */
+.page-footer {
+  background-color: #2f303a;
+  color: var(--primary-white-color);
+}
+
+.copyrigyt {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.social > .label {
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: -0.015em;
+
+  color: var(--primary-white-color);
+}
+
+.page-footer h3 {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: -0.015em;
+  color: var(--primary-white-color);
+}
+
+.page-footer .list {
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: -0.015em;
+  color: var(--primary-white-color);
+}
+
+/* .page-footer .link {
+  color: var(--primary-white-color);
+} */
+
+.button.secondary {
+  text-decoration-line: none;
+  color: var(--primary-white-color);
 }
