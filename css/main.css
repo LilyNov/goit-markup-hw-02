@@ -5,7 +5,7 @@
 /* телефон, почта футер rgba(255, 255, 255, 0.6) */
 
 :root {
-  --primery-texy-color: #757575;
+  --primery-text-color: #757575;
   --title-text-color: #212121;
   --accent-text-color: #2196f3;
   --primary-white-color: #ffffff;
@@ -27,6 +27,10 @@
 }
 
 .button.primary {
+  min-width: 200px;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
   text-decoration: none;
   font-weight: 700;
   font-size: 16px;
@@ -35,6 +39,7 @@
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
   background-color: var(--accent-text-color);
+  text-align: center;
   /* display: flex;
   align-items: center;
    */
@@ -96,6 +101,6 @@
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--primery-texy-color);
+  color: var(--primery-text-color);
   /* text-align: center; */
 }
